@@ -1,0 +1,1 @@
+This repository contains the small projects that I do in weekends and whenever I get time. Something interesting , exciting and new learning for sure :)
