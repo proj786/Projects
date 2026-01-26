@@ -1,0 +1,4 @@
+kidney/
+*.env
+__pycache__/
+*.pyc
