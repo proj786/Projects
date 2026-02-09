@@ -70,3 +70,28 @@ TypeError: DataIngestionTrainingPipeline.main() takes 0 positional arguments but
 [2026-02-09 17:52:28,563: INFO: main: >>>>>>>>Data Ingestion stage completed <<<<<<<
 
 x=========x]
+[2026-02-09 20:06:27,524: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-09 20:06:27,561: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-09 20:06:27,564: INFO: common: created directory at: artifacts]
+[2026-02-09 20:06:27,567: INFO: common: created directory at: artifact/prepare_base_model]
+[2026-02-09 20:06:33,693: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-02-09 20:06:33,903: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-02-09 21:13:04,894: INFO: main: >>>>> stage Data Ingestion stage started <<<<<<]
+[2026-02-09 21:13:04,944: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-09 21:13:04,984: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-09 21:13:04,986: INFO: common: created directory at: artifacts]
+[2026-02-09 21:13:04,987: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-02-09 21:13:19,291: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-02-09 21:13:23,157: INFO: main: >>>>>>>>Data Ingestion stage completed <<<<<<<
+
+x=========x]
+[2026-02-09 21:13:23,159: INFO: main: >>>>> stage Prepare Base Model started <<<<<<]
+[2026-02-09 21:13:23,164: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-09 21:13:23,172: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-09 21:13:23,175: INFO: common: created directory at: artifacts]
+[2026-02-09 21:13:23,184: INFO: common: created directory at: artifact/prepare_base_model]
+[2026-02-09 21:13:24,632: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-02-09 21:13:25,227: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2026-02-09 21:13:25,651: INFO: main: >>>>>>>>Prepare Base Model completed <<<<<<<
+
+x=========x]
